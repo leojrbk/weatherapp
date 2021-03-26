@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/weather-application-tungbq.git"
+  },
+  "author": "Tung Leo",
+  "license": "ISC"
 }
